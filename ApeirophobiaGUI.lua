@@ -87,7 +87,7 @@ local function C_LocalScript_8()
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		wait(5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCubed1/ROBLOX-HUB/scripts/ApeirophobiaSCRIPT.lua?token=GHSAT0AAAAAABWSWSQYSRQ4FEDRUO657IY2YWRUZZQ"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCubed1/ROBLOX-HUB/scripts/ApeirophobiaSCRIPT.lua"))();
 		wait(5)
 		script.Parent.Parent.Visible = false
 	end)
