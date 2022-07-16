@@ -11,3 +11,4 @@ wait(2.5)
     loadstring(http_request({Url="https://raw.githubusercontent.com/TheCubed1/ROBLOX-HUB/GUIS/ApeirophobiaGUI.lua", Method="GET"}).Body)()
   else
     print "Current Game Not Supported"
+end
